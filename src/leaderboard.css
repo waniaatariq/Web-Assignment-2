@@ -1,0 +1,58 @@
+/* leaderboard.css */
+
+.leaderboard {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Styling rows alternately */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Avatar container */
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px; /* Adjust spacing between avatar and team name */
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+/* Trophy image styling */
+.trophy {
+  width: 30px; /* Adjust trophy image size */
+  margin-right: 10px; /* Adjust spacing between trophy and rank */
+}
